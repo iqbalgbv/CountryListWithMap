@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/namelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/namelabel" />
+
+    <TextView
+        android:id="@+id/countrylabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/namelabel"
+        android:text="@string/countrycode" />
+
+    <TextView
+        android:id="@+id/countrycode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_toRightOf="@+id/countrylabel" />
+
+    <TextView
+        android:id="@+id/capitallabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/countrylabel"
+        android:text="@string/capital" />
+
+    <TextView
+        android:id="@+id/capital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/countrylabel"
+        android:layout_toRightOf="@+id/capitallabel" />
+
+
+    <TextView
+        android:id="@+id/timezonelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/capitallabel"
+        android:text="@string/timezone" />
+
+    <TextView
+        android:id="@+id/timezone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/capitallabel"
+        android:layout_toRightOf="@+id/timezonelabel" />
+
+    <TextView
+        android:id="@+id/latlnglabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timezonelabel"
+        android:text="@string/latlng" />
+
+    <TextView
+        android:id="@+id/latlng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timezonelabel"
+        android:layout_toRightOf="@+id/latlnglabel" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timezonelabel"
+        android:layout_toRightOf="@id/latlng"
+        android:onClick="readData"
+        android:text="Klik Untuk Melihat Peta"
+        />
+
+</RelativeLayout>

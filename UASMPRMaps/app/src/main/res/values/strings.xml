@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UAS MPR Maps</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="menu_settings">Settings</string>
+    <string name="name">"Nama Negara : "</string>
+    <string name="countrycode">"Kode Negara : "</string>
+    <string name="capital">"Ibukota : "</string>
+    <string name="timezone">"Timezone : "</string>
+    <string name="latlng">"Latlng(Posisi pada map) : "</string>
+</resources>
