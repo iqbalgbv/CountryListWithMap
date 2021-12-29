@@ -89,8 +89,8 @@ public class MainActivity extends AppCompatActivity {
                         colorx.put("ibukota", ibukota);
                         colorx.put("timezone", waktu);
                         for (int j = 0; j < posisi.length(); j++) {
-                            String posisi1 = timezone.getString(0);
-                            String posisi2 = timezone.getString(1);
+                            String posisi1 = posisi.getString(0);
+                            String posisi2 = posisi.getString(1);
 
 
                             colorx.put("pos1", posisi1);
