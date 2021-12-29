@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
                         String kode = c.getString("country_code");
                         String ibukota = c.getString("capital");
                         String waktu = c.getString("timezones");
-                        JSONArray timezone = c.getJSONArray("latlng");
+                        JSONArray posisi = c.getJSONArray("latlng");
 
                         HashMap<String, String> colorx = new HashMap<>();
 
@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
                         colorx.put("kode", kode);
                         colorx.put("ibukota", ibukota);
                         colorx.put("timezone", waktu);
-                        for (int j = 0; j < timezone.length(); j++) {
+                        for (int j = 0; j < posisi.length(); j++) {
                             String posisi1 = timezone.getString(0);
                             String posisi2 = timezone.getString(1);
 
