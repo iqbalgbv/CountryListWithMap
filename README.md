@@ -1,2 +1,2 @@
 # CountryListWithMap
-> Tutorial available in link : Coming soon
+> Tutorial available here : [Tutorial](Url coming soon)
